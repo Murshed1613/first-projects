@@ -1,6 +1,14 @@
-#include<stdio.h>
-int main(){
-    printf("Hello World!");
-    printf("its me murshed");
-    printf("I am frome teknaf.");
+#include <stdio.h>
+
+int main() {
+    int a, b, sum;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum = %d", sum);
+    return 0;
 }
+
