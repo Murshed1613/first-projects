@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int num;
+   long long product=1;
+    printf("Enter a number:");
+    scanf("%d", &num);
+    if (num==0){
+        product=0;
+    }else{
+        while (num!=0)
+        {
+            product*=(num%10);
+            num/=10;
+        }
+        
+    }
+   printf("Product = %11d\n", product);
+    return 0;
+}
